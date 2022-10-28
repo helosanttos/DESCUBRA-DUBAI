@@ -1,0 +1,22 @@
+nav.navbar {
+    list-style: none;
+    padding: 0%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+}
+nav.navbar li {
+    padding: 15px;
+}
+nav.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+nav.navbar li:hover {
+    background-color: #ccc;
+    font-weight: bold;
+}
