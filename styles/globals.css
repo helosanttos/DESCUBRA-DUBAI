@@ -20,3 +20,18 @@ nav.navbar li:hover {
     background-color: #ccc;
     font-weight: bold;
 }
+
+main {
+    max-width: 978px;
+    margin: auto;
+    background-color: #eee;
+    padding: 15px;
+    height: 10;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+}
