@@ -1,22 +1,26 @@
-nav.navbar {
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
     list-style: none;
     padding: 0%;
     margin: auto;
     font-size: 2rem;
-    font-family: sans-serif;
     display: flex;
     flex-wrap: wrap;
     column-gap: 20px;
     justify-content: center;
 }
-nav.navbar li {
+nav > li {
     padding: 15px;
 }
-nav.navbar li a {
+nav > li > a {
     text-decoration: none;
     color: black;
 }
-nav.navbar li:hover {
+nav > li:hover {
     background-color: #ccc;
     font-weight: bold;
 }
