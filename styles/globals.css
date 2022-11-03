@@ -5,7 +5,7 @@ body {
   font-size: 1em;
 }
 nav {
-  padding: 0;
+  padding: 5px;
   font-size: 1.6rem;
   display: flex;
   align-items: center;
@@ -25,6 +25,7 @@ nav > ul > li > a {
 nav > ul > li:hover {
   background-color: #ccc;
   font-weight: bold;
+  color:aqua
 }
 
 main {
